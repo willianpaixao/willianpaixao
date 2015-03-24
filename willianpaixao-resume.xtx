@@ -82,11 +82,15 @@
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education} 
+\section{Education}
+%\section{Educação}
 
 \subsection{Federal University of Para}
+%\subsection{Universidade Federal do Pará}
 \descript{BS in Computer Engineering}
+%\descript{Bacharel em Engenharia da Computação}
 \location{Dec 2015 | Belem, PA}
+%\location{Dez 2015 | Belém, PA}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
