@@ -85,8 +85,8 @@
 \section{Education}
 %\section{Educação}
 
-\subsection{Federal University of Para}
-%\subsection{Universidade Federal do Pará}
+\subsection{\href{http://www.portal.ufpa.br/}{Federal University of Para}}
+%\subsection{\href{http://www.portal.ufpa.br/}{Universidade Federal do Pará}}
 \descript{BS in Computer Engineering}
 %\descript{Bacharel em Engenharia da Computação}
 \location{Dec 2015 | Belem, PA}
@@ -104,44 +104,68 @@ Twitter://  \href{https://twitter.com/willianpaixaoo}{\bf @willianpaixaoo}\\
 Stack Exchange://  \href{http://stackexchange.com/users/1687314/willian-paixao}{\bf willian-paixao}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
-\sectionsep
-
-\subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+%\section{Habilidades}
+\subsection{Linux Server}
+%\subsection{Servidores Linux}
+\location{Distros:}
+\href{http://www.debian.org/}{Debian} \textbullet{}
+\href{http://www.ubuntu.com/}{Ubuntu} \textbullet{}
+\href{http://www.redhat.com/}{Red Hat} \textbullet{}
+\href{http://www.centos.org/}{Cent OS} \\
+\location{Services:}
+%\location{Serviços:}
+Apache \textbullet{}
+MySQL \textbullet{}
+PostgreSQL \textbullet{}
+BIND \textbullet{}
+DHCP \textbullet{}
+Iptables \textbullet{}
+Postfix \textbullet{}
+Dovecot \textbullet{}
+Samba \textbullet{}
+OpenLDAP \textbullet{}
+OpenVPN \\
+\location{Tools:}
+%\location{Ferramentas:}
+OpenStack \textbullet{}
+KVM \textbullet{}
+Xen \textbullet{}
+Puppet \textbullet{}
+Zabbix \textbullet{}
+Nagios \textbullet{}
 \sectionsep
+
+\subsection{Programming}
+%\subsection{Programação}
+\location{Over 10000 lines:}
+%\location{Acima de 10000 linhas:}
+C \textbullet{}
+Java \textbullet{}
+\href{http://android.com}{Android} \textbullet{}
+Shell \textbullet{}
+\href{http://www.python.org}{Python} \textbullet{}
+\href{http://www.php.net}{PHP} \textbullet{}
+HTML \textbullet{}
+\href{http://www.latex-project.org}{\LaTeX}\\
+\location{Over 1000 lines:}
+CSS \textbullet{}
+JavaScript \textbullet{}
+SQL \textbullet{}
+C++ \textbullet{}
+Perl
+\sectionsep
+
+\subsection{Languages}
+%\subsection{Idiomas}
+\location{Native level:}
+Portuguese \\
+\location{Professional level:}
+English \textbullet{}
+German
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -158,76 +182,46 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{Facebook}
-\descript{| Software Engineer }
-\location{Jan 2015 - Present | New York, NY}
+\runsubsection{Siemens Corporate Research}
+\descript{| Embedded Developer Intern}
+\location{Apr 2014 – Set 2014 | Princeton, NJ}
 \sectionsep
-
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{June 2014 – Sep 2014 | Mountain View, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+\begin{tightemize}
+\item
+\item
+\item
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
+\runsubsection{Siemens Corporate Research}
+\descript{| Software Engineer Intern}
+\location{Oct 2013 – Mar 2014 | Princeton, NJ}
 \begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.\item Created a backbone.js-like framework for the Captions editor.\end{tightemize}
+\item Debug, develop and document Java software used in large scale.
+\item Strong experience with distributed collaboration and team coordination.
+\item 
+\end{tightemize}
 \sectionsep
 
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\runsubsection{Sensor and Embedded Lab}
+\descript{| Embedded Developer}
+\location{Ago 2011 – Jan 2012 | Belem, PA}
 \begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
+\item Develop and implement a new communication protocol standard
+\item Strong experience with embedded systems development
+\item Understanding of FPGA's architecture and workflow
+\end{tightemize}
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Researcher}
-\location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
+\runsubsection{Signal Processing Lab}
+\descript{| Java Developer}
+\location{Ago 2009 – July 2011 | Belem, PA}
+\begin{tightemize}
+\item Design and Implement new algorithms for signal processing.
+\item Great introduction to Software Engineering and Project Management.
+\item Experience with version control, Java profiling and performance.
+\end{tightemize}
 \sectionsep
-
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Awards} 
-\begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-\end{tabular}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Publications} 
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
