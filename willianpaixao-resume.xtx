@@ -180,12 +180,20 @@ German
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\runsubsection{\href{}{CTIC}}
+\descript{| Support Analyst}
+\location{Dec 2014 – | Belem, PA}
+\begin{tightemize}
+\item Set up and maintain Linux servers
+\item
+\item
+\end{tightemize}
+\sectionsep
 
 \section{Experience}
-\runsubsection{Siemens Corporate Research}
-\descript{| Embedded Developer Intern}
+\runsubsection{\href{}{Siemens Corporate Research}}
+\descript{| Embedded Developer}
 \location{Apr 2014 – Set 2014 | Princeton, NJ}
-\sectionsep
 \begin{tightemize}
 \item
 \item
@@ -193,8 +201,8 @@ German
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Siemens Corporate Research}
-\descript{| Software Engineer Intern}
+\runsubsection{\href{}{Siemens Corporate Research}}
+\descript{| Software Engineer}
 \location{Oct 2013 – Mar 2014 | Princeton, NJ}
 \begin{tightemize}
 \item Debug, develop and document Java software used in large scale.
@@ -203,22 +211,32 @@ German
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Sensor and Embedded Lab}
-\descript{| Embedded Developer}
-\location{Ago 2011 – Jan 2012 | Belem, PA}
+\runsubsection{\href{http://jambu.com.br}{Jambu Tecnologia}}
+\descript{| Support Analyst}
+\location{Jan 2012 – Jun 2013 | Belem, PA}
 \begin{tightemize}
-\item Develop and implement a new communication protocol standard
-\item Strong experience with embedded systems development
-\item Understanding of FPGA's architecture and workflow
+\item Set up and maintain Linux servers of medium size companies.
+\item Strong experience with like DNS, DHCP, firewall and others services.
+\item Experience with enterprise management tools like ERP, CRM and helpdesk.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Signal Processing Lab}
+\runsubsection{\href{}{Sensor and Embedded Lab}}
+\descript{| Embedded Developer}
+\location{Ago 2011 – Jan 2012 | Belem, PA}
+\begin{tightemize}
+\item Develop and implementation a new communication protocol standard.
+\item Strong experience with embedded systems development.
+\item Understanding of FPGA's architecture and workflow.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{}{Signal Processing Lab}}
 \descript{| Java Developer}
 \location{Ago 2009 – July 2011 | Belem, PA}
 \begin{tightemize}
-\item Design and Implement new algorithms for signal processing.
-\item Great introduction to Software Engineering and Project Management.
+\item Design and implementation new algorithms for signal processing.
+\item Great introduction to software engineering and project management.
 \item Experience with version control, Java profiling and performance.
 \end{tightemize}
 \sectionsep
