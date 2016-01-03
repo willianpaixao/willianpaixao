@@ -1,0 +1,11 @@
+image: moss/xelatex:v1.0.0
+stages:
+    - build
+job1:
+    stage: build
+    script:
+        - xelatex willianpaixao.tex && rm *aux *log *out
+    artifacts:
+        paths:
+            - willianpaixao.pdf
+
