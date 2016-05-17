@@ -31,7 +31,7 @@
 % Set Brazilian localization
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-%\usepackage[portuges]{babel}
+%\usepackage[portugese]{babel}
 
 % Date command
 \usepackage[absolute]{textpos}
