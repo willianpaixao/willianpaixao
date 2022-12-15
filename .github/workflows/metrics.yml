@@ -1,0 +1,104 @@
+name: Metrics
+
+on:
+  # Schedule daily updates
+  schedule: [ { cron: "0 0 * * *" } ]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: { branches: [ "master", "main" ] }
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          base: header
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_display: large
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          filename: header.svg
+          template: classic
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: willianpaixao
+
+  repositories:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Featured repositories
+        uses: lowlighter/metrics@latest
+        with:
+          base: repositories
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_display: large
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          filename: repositories.svg
+          template: classic
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: willianpaixao
+
+  activities:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recent activity
+        uses: lowlighter/metrics@latest
+        with:
+          base: activity
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_display: large
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          filename: activity.svg
+          plugin_activity: yes
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, review, ref/create
+          plugin_activity_limit: 5
+          template: classic
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: willianpaixao
+
+  habits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recent habits
+        uses: lowlighter/metrics@latest
+        with:
+          base: habits
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_display: large
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          filename: habits.svg
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_facts: no
+          template: classic
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: willianpaixao
+
+  starred:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recently starred
+        uses: lowlighter/metrics@latest
+        with:
+          base: stars
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_display: large
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          filename: stars.svg
+          plugin_stars: yes
+          plugin_stars_limit: 3
+          template: classic
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: willianpaixao
