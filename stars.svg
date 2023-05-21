@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>external-secrets/external-secrets</span>
-                                        <span>starred 15 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.</div>
@@ -76,7 +76,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>robscott/kube-capacity</span>
-                                        <span>starred 15 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A simple CLI that provides an overview of the resource requests, limits, and utilization in a Kubernetes cluster</div>
@@ -129,7 +129,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>FairwindsOps/goldilocks</span>
-                                        <span>starred 15 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Get your resource requests "Just Right"</div>
