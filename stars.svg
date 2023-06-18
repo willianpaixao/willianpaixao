@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>cert-manager/cert-manager</span>
-                                        <span>starred 24 days ago</span>
+                                        <span>starred 25 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Automatically provision and manage TLS certificates in Kubernetes</div>
@@ -76,7 +76,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>photoprism/photoprism</span>
-                                        <span>starred 24 days ago</span>
+                                        <span>starred 25 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">AI-Powered Photos App for the Decentralized Web 🌈💎✨</div>
@@ -129,7 +129,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>external-secrets/external-secrets</span>
-                                        <span>starred 28 days ago</span>
+                                        <span>starred 29 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.</div>
