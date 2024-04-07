@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>google/cadvisor</span>
-                                        <span>starred 11 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Analyzes resource usage and performance characteristics of running containers.</div>
@@ -76,7 +76,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>fluxcd/image-automation-controller</span>
-                                        <span>starred 18 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">GitOps Toolkit controller that patches container image tags in Git</div>
@@ -129,7 +129,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>siderolabs/conform</span>
-                                        <span>starred 3 days ago</span>
+                                        <span>starred 4 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Policy enforcement for your pipelines.</div>
