@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>kubernetes-sigs/descheduler</span>
-                                        <span>starred 14 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Descheduler for Kubernetes</div>
@@ -76,7 +76,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>bitwarden/server</span>
-                                        <span>starred 2 days ago</span>
+                                        <span>starred 3 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">The core infrastructure backend (API, database, Docker, etc).</div>
@@ -129,7 +129,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>FairwindsOps/rbac-manager</span>
-                                        <span>starred 2 days ago</span>
+                                        <span>starred 3 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts.</div>
