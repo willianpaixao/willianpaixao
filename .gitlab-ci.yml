@@ -1,10 +1,13 @@
-image: moss/xelatex:v1.0.0
+image: moss/xelatex:v1.3.0
+
 stages:
     - build
-job1:
+
+build:
     stage: build
     script:
         - xelatex willianpaixao.tex && rm *aux *log *out
+    timeout: 30 minutes
     artifacts:
         paths:
             - willianpaixao.pdf
