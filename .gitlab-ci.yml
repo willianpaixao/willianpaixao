@@ -1,4 +1,4 @@
-image: moss/xelatex:v1.3.0
+image: moss/xelatex:v1.3.1
 
 stages:
     - build
