@@ -2,7 +2,8 @@
 #      Makefile      #
 ######################
 
-filename=willianpaixao
+ext = 4ct aux bbl blg css dvi html idv lg log nav out pdf ps snm tmp toc txt xdv xref
+filename = willianpaixao
 
 pdf: 
 	xelatex ${filename}
@@ -20,5 +21,6 @@ view:
 		do xelatex -halt-on-error ${filename} && xelatex -halt-on-error \
 		${filename}; done
 
+.PHONY : clean
 clean:
-	rm -f ${filename}.{4ct,4tc,aux,bbl,blg,css,dvi,html,idv,lg,log,nav,out,pdf,ps,snm,tmp,toc,txt,xdv,xref}
+	-rm $(ext:%=${filename}.%)
