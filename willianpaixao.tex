@@ -15,16 +15,16 @@
 % default. If you get compilation errors saying a font is missing, find the line
 % on which the font is used and either change it to a font included with your
 % operating system or comment the line out to use the default font.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
+%
 % TODO:
 % 1. Integrate biber/bibtex for article citation under publications.
 % 2. Figure out a smoother way for the document to flow onto the next page.
 % 3. Add styling information for a "Projects/Hacks" section.
 % 4. Add location/address information
 % 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % CHANGELOG:
@@ -57,8 +57,7 @@
 %     TITLE NAME
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Willian}{Paixao}{
-%\urlstyle{same}\href{http://willian.ufpa.br}{willian.ufpa.br} |
-\href{mailto:willian@ufpa.br}{willian@ufpa.br}
+Site Reliability Engineer | Cloud Infrastructure Specialist
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -66,7 +65,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{minipage}[t]{0.34\textwidth}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -82,26 +80,27 @@
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links} 
+\section{Links}
+Email:// \href{mailto:willian@ufpa.br}{willian@ufpa.br}\\
 Github:// \href{https://github.com/willianpaixao}{\bf willianpaixao} \\
-LinkedIn://  \href{https://www.linkedin.com/in/willianpaixao}{\bf willianpaixao} \\
+LinkedIn:// \href{https://www.linkedin.com/in/willianpaixao}{\bf willianpaixao} \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     CERTIFICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Certifications}
-\href{https://www.lpi.org/certification/get-certified-lpi/lpic-1-linux-server-professional/}{LPIC1} - 2013 \\
-\href{https://www.goethe.de/en/spr/kup/prf/prf/gb1.html}{Goethe-Zertifikat B1} - 2013
-\sectionsep
+%\section{Certifications}
+%\href{https://www.lpi.org/certification/get-certified-lpi/lpic-1-linux-server-professional/}{LPIC1} - 2013 \\
+%\href{https://www.goethe.de/en/spr/kup/prf/prf/gb1.html}{Goethe-Zertifikat B1} - 2013
+%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Cloud Infrastructure}
+\subsection{Infrastructure}
 \location{Cloud Provider:}
 \href{https://aws.amazon.com/}{AWS}\textbullet{}
 \href{https://cloud.google.com/}{GCP}\textbullet{}
@@ -144,11 +143,15 @@ LinkedIn://  \href{https://www.linkedin.com/in/willianpaixao}{\bf willianpaixao}
 \href{https://www.postgresql.org/}{PostgreSQL}\textbullet{}
 \href{https://graphql.org/}{GraphQL}\\
 \href{https://www.hashicorp.com/en/products/vault}{Vault}\\
-\location{Tools:}
+\location{Virtualisation:}
 \href{https://www.openstack.org/}{OpenStack}\textbullet{}
 \href{https://linux-kvm.org/}{KVM}\textbullet{}
 \href{https://xenproject.org/}{Xen} \textbullet{}
 \href{https://www.proxmox.com/}{Proxmox}\\
+\location{Blockchain:}
+\href{https://bitcoincore.org/}{Bitcoin}\textbullet{}
+\href{https://ethereum.org/}{Ethereum}\textbullet{}
+\href{https://polkadot.com/}{Polkadot}
 \sectionsep
 
 \subsection{Programming}
@@ -164,8 +167,21 @@ SQL\textbullet{}
 \href{https://www.perl.org/}{Perl}
 \sectionsep
 
+\subsection{OSS Contributions}
+\href{https://kernel.org/}{Linux Kernel}\textbullet{}
+Ansible\textbullet{}
+\href{https://www.arduino.cc/}{Arduino}\textbullet{}
+Django\\
+Ethereum\textbullet{}
+GitLab\textbullet{}
+Terraform
+\sectionsep
+
 \subsection{Frameworks}
 \href{https://www.djangoproject.com/}{Django}\textbullet{}
+\href{https://fastapi.tiangolo.com/}{FastAPI}\textbullet{}
+\href{https://flask.palletsprojects.com/}{Flask}\textbullet{}
+\href{https://www.tensorflow.org/}{TensorFlow}
 \href{https://spring.io/}{Spring}\textbullet{}
 \href{https://hibernate.org/}{Hibernate}\textbullet{}
 \href{https://grails.org/}{Grails}
@@ -179,19 +195,42 @@ English (C1)\\
 \location{Intermediate level:}
 German (B1)\\
 Swedish (B1)
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COLUMN TWO
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{minipage} 
+\end{minipage}
 \hfill
 \begin{minipage}[t]{0.64\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SUMMARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary}
+Highly motivated engineer with 15+ years of experience in designing, developing, and deploying scalable and reliable cloud-native solutions. Proven ability to lead technical initiatives and collaborate with cross-functional teams.\\
+Working as a consultant for the past 8 years in Stockholm, Sweden (UTC+1).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experience}
+\runsubsection{\href{https://www.nordea.se/}{Nordea}}
+\descript{| Platform Engineer}
+\location{Apr 2025 - Present | Stockholm, Sweden}
+\location{{\bf Keywords:}
+AWS,
+GitHub Actions,
+Kubernetes,
+Terraform
+}
+\sectionsep
+\begin{tightemize}
+\item Design and deploy highly secure, cloud-native infrastructure on AWS, compliant with financial regulatory standards
+\item Author reusable Terraform modules and internal documentation, reducing infrastructure onboarding time and improving consistency
+\end{tightemize}
+\sectionsep
 \runsubsection{\href{https://seb.se/}{SEB}}
 \descript{| Platform Engineer}
 \location{Apr 2023 – Sep 2024 | Stockholm, Sweden}
@@ -202,9 +241,8 @@ GitLab CI,
 Kubernetes,
 Terraform
 }
-\sectionsep
 \begin{tightemize}
-\item Write and review comprehensive disaster recovery plans, reducing downtime and improving overall system resilience
+\item Architect multi-region disaster recovery plan, increasing uptime and overall system resilience
 \item Develop and maintain Kubernetes clusters for scalable infrastructure, resulting in increased system performance
 \end{tightemize}
 \sectionsep
@@ -220,9 +258,9 @@ Kubernetes,
 Prometheus
 }
 \begin{tightemize}
-\item Engage on-call and managing incident response, escalations, and post-incident reviews
-\item Manage Kubernetes cluster operations, facilitating seamless tenants onboarding and upgrades
 \item Implement initiatives to enhance developer experience, prioritizing clean APIs and process efficiency
+\item Manage Kubernetes cluster operations, facilitating seamless tenants onboarding and upgrades
+\item Led incident response efforts for Kubernetes clusters, conducting post-incident reviews and implementing preventative measures
 \end{tightemize}
 \sectionsep
 
@@ -239,6 +277,7 @@ Terraform
 }
 \begin{tightemize}
 \item Manage Ethereum ecosystem nodes, Kubernetes clusters, and applications on GCP, ensuring high availability and reliability
+\item Collaborate with blockchain protocol teams to address consensus and network latency issues
 \item Utilize Ansible, Terraform, and Blockchain expertise for efficient infrastructure management
 \end{tightemize}
 \sectionsep
@@ -256,7 +295,6 @@ Terraform
 }
 \begin{tightemize}
 \item Develop and maintain applications for the largest stock exchange
-\item Manage Kubernetes infrastructure in GCP
 \item Write and improve pipelines in GitLab to automate code deployment
 \end{tightemize}
 \sectionsep
@@ -272,43 +310,43 @@ Redis,
 RESTful API
 }
 \begin{tightemize}
-\item Develop and maintain Python services for the music industry
-\item Design database schemas, optimize queries, and manage a large dataset
-\item Evaluate new DevOps tools and frameworks to improve processes, such as CI/CD, orchestration, and monitoring solutions
+\item Build Python-based backend services for internal analytics and music licensing systems
+\item Evaluate new DevOps tools and frameworks to improve processes, such as CI/CD, orchestration, and monitoring solutions\footnote{A complete and detailed list of experiences can be found in my \href{https://www.linkedin.com/in/willianpaixao/details/experience/}{LinkedIn} profile}
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Ellmount}
-\descript{| Site Reliability Engineer}
-\location{Apr 2017 – Mar 2018 | Stockholm, Sweden}
-\location{{\bf Keywords:}
-AWS,
-Ansible,
-Datadog,
-PagerDuty,
-Terraform
-}
-\begin{tightemize}
-\item Design and implement cloud infrastructure from scratch with IaC
-\item Enhance automation pipelines and deployment processes
-\item Ensure regular backups are created and verifying backup integrity
-\end{tightemize}
-\sectionsep
+%\runsubsection{Ellmount}
+%\descript{| Site Reliability Engineer}
+%\location{Apr 2017 – Mar 2018 | Stockholm, Sweden}
+%\location{{\bf Keywords:}
+%AWS,
+%Ansible,
+%Datadog,
+%PagerDuty,
+%Terraform
+%}
+%\begin{tightemize}
+%\item Design and implement cloud infrastructure from scratch with IaC
+%\item Enhance automation pipelines and deployment processes
+%\item Ensure regular backups are created and verifying backup integrity
+%\end{tightemize}
+%\sectionsep
 
-\runsubsection{\href{https://www.telekom.com/}{Deutsche Telekom}}
-\descript{| Software Developer Engineer}
-\location{Sep 2016 – Apr 2017 | Blumenau, Brazil}
-\location{{\bf Keywords:}
-IBM WebSphere,
-Java,
-Oracle,
-SVN
-}
-\begin{tightemize}
-\item Write clean, efficient, and maintainable code in Java. Conduct code reviews to ensure quality, consistency, and adherence to best practices
-\item Design and implement RESTful APIs, ensuring proper documentation
-\item Manage Oracle databases, including creating schemas, optimizing queries, and working with Hibernate
-\end{tightemize}
+%\runsubsection{\href{https://www.telekom.com/}{Deutsche Telekom}}
+%\descript{| Software Developer Engineer}
+%\location{Sep 2016 – Apr 2017 | Blumenau, Brazil}
+%\location{{\bf Keywords:}
+%IBM WebSphere,
+%Java,
+%Oracle,
+%SVN
+%}
+%\begin{tightemize}
+%\item Write clean, efficient, and maintainable code in Java. Conduct code reviews to ensure quality, consistency, and adherence to best practices
+%\item Design and implement RESTful APIs, ensuring proper documentation
+%\item Manage Oracle databases, including creating schemas, optimizing queries, and working with Hibernate
+%\end{tightemize}
+
 \end{minipage}
 \end{document}% End of resume
 \documentclass{article}

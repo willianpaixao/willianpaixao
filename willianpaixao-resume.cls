@@ -15,7 +15,7 @@
 \renewcommand\refname{\vskip -1.5cm}
 
 % Color definitions
-\usepackage[usenames,dvipsnames]{xcolor} 
+\usepackage[usenames,dvipsnames]{xcolor}
 \definecolor{date}{HTML}{666666}
 \definecolor{primary}{HTML}{2b2b2b}
 \definecolor{headings}{HTML}{6A6A6A}
@@ -50,7 +50,7 @@
     \begin{textblock}{60}(155,5)
         \color{date}
         \fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}
-        \fontsize{8pt}{10pt}\selectfont 
+        \fontsize{8pt}{10pt}\selectfont
         Last updated on \today
     \end{textblock}
 }
@@ -59,12 +59,12 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
- 
+
 % Name command
 \newcommand{\namesection}[3]{
     \centering{
         \fontsize{40pt}{60pt}
-        \fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1 
+        \fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1
         \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
     } \\[5pt]
     \centering{
@@ -75,9 +75,9 @@
     \vspace{-15pt}
 }
 
-% Section separators 
+% Section separators
 \usepackage{titlesec}
-\titlespacing{\section}{0pt}{0pt}{0pt} 
+\titlespacing{\section}{0pt}{0pt}{0pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
 \newcommand{\sectionsep}{\vspace{8pt}}
 
@@ -123,4 +123,3 @@
 \newenvironment{tightemize}{
     \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt
 }{\end{itemize}\vspace{-\topsep}}
-

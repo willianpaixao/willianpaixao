@@ -2,10 +2,10 @@
 #      Makefile      #
 ######################
 
-ext = 4ct aux bbl blg css dvi html idv lg log nav out pdf ps snm tmp toc txt xdv xref
+ext = 4tc aux bbl blg css dvi html idv lg log nav out pdf ps snm tmp toc txt xdv xref
 filename = willianpaixao
 
-pdf: 
+pdf:
 	xelatex ${filename}
 	xelatex ${filename}
 

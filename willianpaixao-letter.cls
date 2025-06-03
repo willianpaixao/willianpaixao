@@ -15,9 +15,9 @@
 %\usepackage{cite}
 %\renewcommand\refname{\vskip -1.5cm}
 
-\usepackage[usenames,dvipsnames]{xcolor} 
-\definecolor{primary}{HTML}{2b2b2b} 
-%\definecolor{date}{HTML}{666666} 
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{primary}{HTML}{2b2b2b}
+%\definecolor{date}{HTML}{666666}
 %\definecolor{headings}{HTML}{6A6A6A}
 \definecolor{subheadings}{HTML}{333333}
 
@@ -27,4 +27,3 @@
 
 %\usepackage[utf8]{inputenc}
 %\usepackage[T1]{fontenc}
-
