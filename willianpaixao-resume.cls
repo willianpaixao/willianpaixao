@@ -9,13 +9,14 @@
 % Page margins and settings
 \usepackage[a4paper,hmargin=1.25cm,vmargin=0.75cm]{geometry}
 \usepackage{hyperref}
+\hypersetup{hidelinks}
 
 % Publications
 \usepackage{cite}
 \renewcommand\refname{\vskip -1.5cm}
 
 % Color definitions
-\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[dvipsnames]{xcolor}
 \definecolor{date}{HTML}{666666}
 \definecolor{primary}{HTML}{2b2b2b}
 \definecolor{headings}{HTML}{6A6A6A}
@@ -43,6 +44,7 @@
 
 % Last updated
 \usepackage[absolute]{textpos}
+\usepackage[UKenglish]{babel}
 \usepackage[UKenglish]{isodate}
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
@@ -70,22 +72,23 @@
     \centering{
         \color{headings}
         \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
-        \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}
+        \noindent\makebox[\linewidth]{\color{headings}\rule{\linewidth}{0.4pt}
     }
     \vspace{-15pt}
 }
 
 % Section separators
 \usepackage{titlesec}
-\titlespacing{\section}{0pt}{0pt}{0pt}
-\titlespacing{\subsection}{0pt}{0pt}{0pt}
+\usepackage{enumitem}
+\titlespacing{\section}{0pt}{0pt}{2pt}
+\titlespacing{\subsection}{0pt}{0pt}{1pt}
 \newcommand{\sectionsep}{\vspace{8pt}}
 
 % Heading command
 \titleformat{\section}{
     \color{headings}
     \fontspec[Path = fonts/lato/]{Lato-Lig}
-    \fontsize{16pt}{24pt}\selectfont\raggedright\uppercase
+    \fontsize{16pt}{24pt}\selectfont\raggedright
 }{}{0em}{}
 
 % Subheading command
@@ -94,13 +97,13 @@
     \fontspec[
         Path = fonts/lato/
     ]{Lato-Bol}
-    \fontsize{12pt}{12pt}\selectfont\uppercase
+    \fontsize{12pt}{12pt}\selectfont
 }{}{0em}{}
 
 \newcommand{\runsubsection}[1]{
 \color{subheadings}
 \fontspec[Path = fonts/lato/]{Lato-Bol}
-\fontsize{12pt}{12pt}\selectfont\uppercase {#1} \normalfont
+\fontsize{12pt}{12pt}\selectfont {#1} \normalfont
 }
 
 % Descriptors command
@@ -121,5 +124,5 @@
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
-    \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt
-}{\end{itemize}\vspace{-\topsep}}
+    \begin{itemize}[itemsep=1pt,parsep=0pt,topsep=2pt,partopsep=0pt]
+}{\end{itemize}}
